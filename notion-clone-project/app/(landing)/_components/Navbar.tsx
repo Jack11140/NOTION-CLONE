@@ -2,6 +2,7 @@
 import { useScrollTrack } from "@/hooks/hooks/use-scroll-track"
 import { cn } from "@/lib/utils";
 import Logo from "./Logo";
+import { ModeToggle } from "@/components/mode-toggle";
 
 const Navbar = () => {
   const scrolled = useScrollTrack();
@@ -15,7 +16,7 @@ const Navbar = () => {
     >
       <Logo />
       <div className="flex items-center justify-between w-full md:ml auto md:justify-end gap-x-2">
-        Login
+        <ModeToggle />
       </div>
     </div>
   );
