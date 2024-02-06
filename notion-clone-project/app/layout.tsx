@@ -6,7 +6,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Notion clone",
-  description: "Notion is the connected workspace where better, faster work happens.",
+  description:
+    "Notion is the connected workspace where better, faster work happens.",
   icons: {
     icon: [
       {

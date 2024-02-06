@@ -13,3 +13,5 @@ const LandingLayout = ({ children }: { children: React.ReactNode }) => {
 export default LandingLayout;
 
 //import { Children } from "react";
+//const LandingLayout = ({ children }: { children: React.ReactNode }) => {
+ 
