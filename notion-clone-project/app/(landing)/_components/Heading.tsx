@@ -7,7 +7,7 @@ import { ArrowRight } from "lucide-react"
 const Heading = () => {
   return (
     <div className="max-w-3xl space-y-4">
-        <h1 className="text-3xl font-bold sm:text-5xl md:text-6xl">
+        <h1   className="text-3xl font-bold sm:text-5xl md:text-6xl">
             Write, plan, share. With Ai at your side. Welcome to{" "}
             <span className="underline">Notion</span>
         </h1>
