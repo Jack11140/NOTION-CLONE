@@ -2,7 +2,7 @@
 import { useScrollTrack } from "@/hooks/hooks/use-scroll-track"
 import { cn } from "@/lib/utils";
 import Logo from "./Logo";
-import { ModeToggle } from "@/components/mode-toggle";
+import { ModeToggle } from "@/components/ui/mode-toggle";
 
 const Navbar = () => {
   const scrolled = useScrollTrack();
@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div
       className={cn(
-        "fixed top-0 z-50 flex items-center w-full p-6 bg-background",
+        "fixed top-0 z-50 flex items-center w-full p-6 bg-background  dark:bg-[#1f1f1f]",
         scrolled && "border-b shadow-sm"
       )}
     >
